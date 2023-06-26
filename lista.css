@@ -1,0 +1,72 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffc4a5; /* Fondo de color naranja pastel */
+  border: 2px solid #ff9c7a; /* Borde */
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Arial", sans-serif; /* Cambiar la tipografía a Arial */
+  font-size: 28px; /* Aumentar el tamaño de la fuente */
+  text-transform: uppercase; /* Convertir a mayúsculas */
+  margin-bottom: 10px;
+  color: #9400d3; /* Cambiar el color del texto a un tono más femenino */
+  font-style: italic; /* Cambiar la letra a manuscrita */
+}
+
+.task {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.taskCheckbox {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%; /* Hacer el checkbox circular */
+  border: 2px solid #000; /* Color de borde negro */
+}
+
+.taskCheckbox:checked {
+  background-color: #ff7e50; /* Color de fondo rosa cuando se marca el checkbox */
+}
+
+.taskLabel {
+  flex-grow: 1;
+  margin-left: 5px;
+  color: #333;
+  font-family: "Arial", sans-serif; /* Cambiar la tipografía a Arial */
+  font-weight: bold; /* Establecer negrita */
+}
+
+.taskLabel.completed {
+  color: #888;
+  text-decoration: line-through;
+}
+
+.addTask {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#taskInput {
+  flex-grow: 1;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+#addButton {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
